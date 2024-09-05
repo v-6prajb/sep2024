@@ -10,4 +10,5 @@ jobs:
               run: pwd && ls -altr
             - name: Execute shell script
               run: |
+                chmod +x ascii.sh
                 ./ascii.sh
