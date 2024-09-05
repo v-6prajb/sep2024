@@ -11,3 +11,5 @@ jobs:
                 echo "this is second step"
                 ls -lta
                 cat README.md
+            - name: display ASCII message
+              run: cowsay -f horse "Message"
