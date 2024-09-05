@@ -1,0 +1,13 @@
+name: another_workflow
+on: push
+jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Repo
+              uses: actions/checkout@v4
+            - name: list and read file
+              run: |
+                echo "this is second step"
+                ls -lta
+                cat README.md
