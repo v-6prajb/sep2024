@@ -6,7 +6,7 @@ jobs:
         steps:
             - name: Checkout Repo
               uses: actions/checkout@v4
-            - name: pwd
+            - name: pwd and list files
               run: pwd && ls -altr
             - name: Execute shell script
               run: |
