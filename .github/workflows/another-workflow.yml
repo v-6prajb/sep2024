@@ -7,7 +7,7 @@ jobs:
             - name: Checkout Repo
               uses: actions/checkout@v4
             - name: pwd
-              run: pwd && ls -ltr && cd sep2024 && cd sep2024
+              run: pwd && ls -altr && 
             - name: Execute shell script
               run: |
                 ./ascii.sh
