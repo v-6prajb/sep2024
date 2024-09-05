@@ -14,4 +14,4 @@ jobs:
             - name: install cowsay
               run: sudo apt-get install cowsay -y
             - name: display ASCII message
-              run: cowsay -f horse "Message"
+              run: cowsay -f moose "Message"
