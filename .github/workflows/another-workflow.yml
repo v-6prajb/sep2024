@@ -17,5 +17,5 @@ jobs:
               with:
                 name: ascii file
                 retention-days: 5
-                path: cowsay.txt
+                path: .cowsay.txt
           
